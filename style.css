@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(27, 25, 36);
+}
+
+.main{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    gap: 5px;
+}
+
+.main img{
+    width: 200px;
+}
+
+.main h2{
+    font-size: 30px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.main .input2{
+    background-color: #444059;
+    color: white;
+
+    font-family: inherit;
+    font-size: 20px;
+    width: 48%;
+    text-align: center;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 2px;
+
+    box-sizing: border-box;
+}
+
+#input1{
+    height: 150px;
+    width: 97%;
+
+    background-color: #444059;
+    color: white;
+
+    font-family: inherit;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 4px;
+
+    box-sizing: border-box;
+}
+
+.fromTo{
+    display: flex;
+}
+
+.btn{
+    width: 97%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(135, 137, 235);
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(65, 66, 109);
+    color: white;
+}
+
+.endlist{
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    text-align: left;
+}
+
+.endlist li{
+    width: 350px;
+    background: rgb(135, 137, 235);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.endlist li > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endlist li > div > div{
+    display: flex;
+    gap: 5px;
+    margin: 0 5px;
+    align-items: center;
+}
+
+.endorsement-list-to, .endorsement-list-from, .endorsement-list-heart-count{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.endorsement-list-msg{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    user-select: none;
+}
+
+.endorsement-list-heart-icon{
+    cursor: pointer;
+}
+
+.endorsement-list-heart-icon:hover{
+    color: white;
+    cursor: pointer;
+}
